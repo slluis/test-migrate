@@ -14,8 +14,7 @@ namespace Xamarin.EngineeringServices.RepoGraphs
 {
 	public static class RepoDiscoverer
 	{
-		class RepoInfo
-		{
+		class RepoInfo {
 			public string Revision;
 			public RepoReference[] References;
 			public Task QueryTask;
