@@ -17,7 +17,7 @@ namespace Xamarin.EngineeringServices.RepoGraphs
 		class RepoInfo
 		{
 			public string Revision;
-			public RepoReference [] References;
+			public RepoReference[] References;
 			public Task QueryTask;
 		}
 
